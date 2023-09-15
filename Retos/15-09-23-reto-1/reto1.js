@@ -1,7 +1,9 @@
 
-//comentario en html
-alert("Hola Mundo"); console.log("Hola Mundo");
+let num_par_impar = prompt("Ingrese un número: ", 0); //segundo parametro debe ir para no crashear algunos navegadores
 
-console.log("numeros: ");
-[1, 2, 3, 4].forEach(console.log);
+if (num_par_impar % 2 == 0) {
+    alert("El número es par")
+} else { 
+    alert("El número es impar")
+};
 
