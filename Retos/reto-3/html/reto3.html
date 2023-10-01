@@ -13,16 +13,20 @@
         <input type="text" id="total_boleta">
         <label for="porc_propina">Porcentaje de propina: </label>
         <select id="porc_propina">
-            <option value="10_porc">10%</option>
-            <option value="15_porc">15%</option>
-            <option value="10_porc">20%</option>
+            <option value="0.1">10%</option>
+            <option value="0.15">15%</option>
+            <option value="0.2">20%</option>
         </select>
-        <button type="button" onclick="test();">Calcular</button>
+        <button type="button" onclick="calcular();">Calcular</button>
     </form>
 
-    <label for="CAMPOOOOO">Propina: </label>
+    <label for="propina">Propina: </label>
+    <label id="propina"></label>
 
-    <label for="CAMPOOOOO">Total a pagar: </label>
+    <div>
+    <label for="total_pago">Total a pagar: </label>
+    <label id="total_pago"></label>
+    </div>
 
     <script src="../javascript/reto3.js"></script>
 </body>
