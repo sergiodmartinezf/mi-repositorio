@@ -23,3 +23,5 @@ for (var i = 1; i <= num; i++) {
 // Se muestra la suma total.
 alert("La suma total de todos los números pares desde 1 hasta el entero ingresado es igual a: " + suma);
 
+//test
+
