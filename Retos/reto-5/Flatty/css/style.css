@@ -102,6 +102,10 @@ hr {
   background: #fff;
 }
 
+.menu-nav {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /* Helpers */
 
 .mt {
