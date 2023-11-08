@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<form>
+
+<label for="long_cont">Longitud de la contraseña:</label>
+<br>
+<input type="number" id="long_cont"></input>
+<br>
+
+<label for="mayus">Incluir Letras Mayúsculas:</label>
+<br>
+<input type="checkbox" name="mayus_nom" id="mayus"></input>
+<br>
+
+<label for="minus">Incluir Letras Minúsculas:</label>
+<br>
+<input type="checkbox" id="minus"></input>
+<br>
+
+<label for="numeros">Incluir Números:</label>
+<br>
+<input type="checkbox" id="numeros"></input>
+<br>
+
+<label for="caract_esp">Incluir Carácteres Especiales:</label>
+<br>
+<input type="checkbox" id="caract_esp"></input>
+<br>
+
+<button id="boton1" onclick="generarContra()">Generar Contraseña</button>
+<br>
+
+<label id="contra1">Incluir Letras Minúsculas:</label>
+<label id="contra2" name="contra2_nom"></label>
+
+</form>
+
+    <script src="../js/control-2.js"></script>
+</body>
+</html>
